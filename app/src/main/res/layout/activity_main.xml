@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/relative_layout"
     android:background="#39add1"
     android:padding="50dp"
     tools:context="edu.dartmouth.cs.dartmouthnews.MainActivity">
@@ -34,7 +35,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"
-        android:text="@string/next_news"/>
+        android:text="@string/next_news"
+        android:textColor="#39add1"/>
 
 
 </RelativeLayout>
