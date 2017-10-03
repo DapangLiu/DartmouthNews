@@ -12,13 +12,9 @@ class NewsHub {
 			"Three students make Team USA cut while balancing demanding training, academic schedules.",
 	};
 
-	// Declare a member: mNews
 
-
+	// Randomly select News
 	String getNews() {
-		// News Array
-
-		// Randomly select News
 		Random randomGenerator = new Random();
 		int randomNumber = randomGenerator.nextInt(mNews.length);
 		return mNews[randomNumber];

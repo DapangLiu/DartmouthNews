@@ -16,6 +16,7 @@ class ColorWheel {
 			"#795548"
 	};
 
+	// Randomly select News
 	int getColor() {
 		// Randomly select Color
 		Random randomGenerator = new Random();

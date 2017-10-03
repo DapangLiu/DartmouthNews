@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 	private RelativeLayout mRelativeLayout;
 
 	// Declare & Initiate the News Hub
-	NewsHub mHub = new NewsHub();;
+	NewsHub mHub = new NewsHub();
 
 	// Declare & Initiate a Color Wheel
 	ColorWheel mWheel = new ColorWheel();
